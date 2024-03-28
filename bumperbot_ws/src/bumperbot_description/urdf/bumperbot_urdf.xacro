@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="turtlebot">
+
+    <link name="base_footprint"/>
+
+	<!-- Base Link -->
+	<link name="base_link">
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/base_link.STL"></mesh>
+		</geometry>
+		</visual>
+	</link>
+
+	<!-- Wheel Links -->
+	<link name="left_wheel">
+		<visual>
+		<geometry>
+			<cylinder length="0.1" radius="0.05"/>
+		</geometry>
+		</visual>
+	</link>
+
+	<link name="right_wheel">
+		<visual>
+		<geometry>
+			<cylinder length="0.1" radius="0.05"/>
+		</geometry>
+		</visual>
+	</link>
+
+	<!-- Caster Wheel Link -->
+	<link name="caster_wheel">
+		<visual>
+		<geometry>
+			<sphere radius="0.05"/>
+		</geometry>
+		</visual>
+	</link>
+
+	<!-- Sensor Link -->
+	<link name="sensor">
+		<visual>
+		<geometry>
+			<cylinder length="0.1" radius="0.05"/>
+		</geometry>
+		</visual>
+	</link>
+
+	<!-- Joints -->
+	<joint name="base_joint" type="fixed">
+		<parent link="base_footprint"/>
+		<child link="base_link"/>
+		<origin xyz="0 0 0.033" rpy="0 0 0"/>
+	</joint>
+	
+	<joint name="left_wheel_joint" type="continuous">
+		<parent link="base_link"/>
+		<child link="left_wheel"/>
+		<origin xyz="0.1 0.15 0" rpy="0 0 0"/>
+		<axis xyz="0 1 0"/>
+	</joint>
+
+	<joint name="right_wheel_joint" type="continuous">
+		<parent link="base_link"/>
+		<child link="right_wheel"/>
+		<origin xyz="0.1 -0.15 0" rpy="0 0 0"/>
+		<axis xyz="0 1 0"/>
+	</joint>
+
+	<joint name="caster_wheel_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="caster_wheel"/>
+		<origin xyz="0 -0.2 0" rpy="0 0 0"/>
+	</joint>
+
+	<joint name="sensor_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="sensor"/>
+		<origin xyz="0 0 0.15" rpy="0 0 0"/>
+	</joint>
+
+</robot>

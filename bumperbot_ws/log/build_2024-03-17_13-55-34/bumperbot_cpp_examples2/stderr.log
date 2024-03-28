@@ -1,0 +1,49 @@
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:10:30:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   10 |     SimplePublisher() : Node([01;35m[K'simple_publisher'[m[K), count_(0){
+      |                              [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:11:56:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   11 |         pub_ = create_publisher<std_msgs::msg::String>([01;35m[K'chatter'[m[K, 10);
+      |                                                        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:27:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   27 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:[m[K In constructor ‘[01m[KSimplePublisher::SimplePublisher()[m[K’:
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:10:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(int)[m[K’
+   10 |     SimplePublisher() : Node('simple_publisher'), count_(0[01;31m[K)[m[K{
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1294 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:90:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   90 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:11:55:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimplePublisher::create_publisher<std_msgs::msg::String>(int, int)[m[K’
+   11 |         pub_ = [01;31m[Kcreate_publisher<std_msgs::msg::String>('chatter', 10)[m[K;
+      |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2/src/simple_publisher.cpp:11:56:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K1953785202[m[K’ (type ‘[01m[Kint[m[K’) to type ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   11 |         pub_ = create_publisher<std_msgs::msg::String>([01;36m[K'chatter'[m[K, 10);
+      |                                                        [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

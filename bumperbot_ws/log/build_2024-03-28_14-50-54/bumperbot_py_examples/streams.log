@@ -1,0 +1,29 @@
+[0.697s] Invoking command in '/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.843s] running egg_info
+[0.853s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.853s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.853s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.854s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.874s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.875s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.875s] running build
+[0.875s] running build_py
+[0.876s] copying bumperbot_py_examples/__init__.py -> /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.876s] copying bumperbot_py_examples/simple_subscriber.py -> /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.876s] copying bumperbot_py_examples/simple_publisher.py -> /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.877s] running install
+[0.881s] running install_lib
+[0.891s] copying /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.892s] byte-compiling /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.892s] running install_data
+[0.893s] copying resource/bumperbot_py_examples -> /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.893s] copying package.xml -> /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.893s] running install_egg_info
+[0.904s] removing '/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.904s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.905s] running install_scripts
+[0.991s] Installing simple_publisher script to /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.992s] Installing simple_subscriber script to /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.992s] writing list of installed files to '/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[1.015s] Invoked command in '/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
