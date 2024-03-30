@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="bumperbot">
+
+	<xacro:include filename="$(find bumperbot_description)/urdf/bumperbot.gazebo.xacro"/>
+
+    <link name="base_footprint"/>
+
+	<!-- Base Link -->
+	<link name="base_link">
+		<inertial>
+			<origin xyz="0 0 0.04" rpy="0 0.25 0.3"></origin>
+			<mass value="6.257e-01"></mass>
+			<inertia ixx="2.212e-02" ixy="-1.229e-04" ixz="3.493e-0.4" iyy="2.119e-02" iyz="-5.012e-05" izz="2.006e-02"></inertia>
+		</inertial>
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/base_link.STL"></mesh>
+		</geometry>
+		</visual>
+		<collision>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/base_link.STL"></mesh>
+		</geometry>
+		</collision>
+	</link>
+
+	<!-- Wheel Links -->
+	<link name="right_wheel"> 
+		<inertial>
+			<origin xyz="0 -0.014 0" rpy="0 0 0"></origin>
+			<mass value="0.053"></mass>
+			<inertia ixx="1.8817e-05" ixy="-4.844e-10" ixz="1.8816e-08" iyy="3.1151e-05" iyz="-6.9356e-11" izz="1.88e-5"></inertia>
+		</inertial>
+		<visual>
+			<origin rpy="1.57 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/wheel_right_link.STL"></mesh>
+		</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 -0.015 0" rpy="1.57 0 0"></origin>
+			<geometry>
+				<sphere radius="0.033"></sphere>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="left_wheel"> 
+		<inertial>
+			<origin xyz="0 0.014 0" rpy="0 0 0"></origin>
+			<mass value="0.053"></mass>
+			<inertia ixx="1.879e-05" ixy="3.312e-10" ixz="-1.14e-08" iyy="3.1151e-05" iyz="-3.605e-10" izz="1.88e-5"></inertia>
+		</inertial>
+		<visual>
+			<origin rpy="-1.57 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/wheel_left_link.STL"></mesh>
+		</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0.015 0" rpy="1.57 0 0"></origin>
+			<geometry>
+				<sphere radius="0.033"></sphere>
+			</geometry>
+		</collision>
+	</link>
+
+	<!-- Caster Wheel Link -->
+	<link name="caster_wheel_front">
+		<inertial>
+			<origin xyz="3.899e-07 2.4e-07 0.00219" rpy="0 0 0"></origin>
+			<mass value="1.443e-06"></mass>
+			<inertia ixx="7.23e-11" ixy="-6.1095e-16" ixz="2.228e-15" iyy="3.8713e-11" iyz="2.939e-15" izz="1e-10"></inertia>
+		</inertial>
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/caster_front_link.STL"></mesh>
+		</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<sphere radius="0.005"></sphere>
+			</geometry>
+		</collision>
+	</link> 
+
+	<link name="caster_wheel_rear">
+		<inertial>
+			<origin xyz="3.899e-07 2.4e-07 0.00219" rpy="0 0 0"></origin>
+			<mass value="1.443e-06"></mass>
+			<inertia ixx="7.23e-11" ixy="-6.1095e-16" ixz="2.228e-15" iyy="3.8713e-11" iyz="2.939e-15" izz="1e-10"></inertia>
+		</inertial>
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/caster_rear_link.STL"></mesh>
+		</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0"></origin>
+			<geometry>
+				<sphere radius="0.005"></sphere>
+			</geometry>
+		</collision>
+	</link> 
+
+	<!-- Sensor Link
+	<link name="sensor">
+		<visual>
+		<geometry>
+			<cylinder length="0.1" radius="0.05"/>
+		</geometry>
+		</visual>
+	</link> -->
+
+	<!-- Joints -->
+	<joint name="base_joint" type="fixed">
+		<parent link="base_footprint"/>
+		<child link="base_link"/>
+		<origin xyz="0 0 0.033" rpy="0 0 0"/>
+	</joint>
+	
+	<joint name="right_wheel_joint" type="continuous">
+		<parent link="base_link"/>
+		<child link="right_wheel"/>
+		<origin xyz="0 -0.07 0" rpy="0 0 0"/>
+		<axis xyz="0 1 0"/>
+	</joint>
+
+	<joint name="left_wheel_joint" type="continuous">
+		<parent link="base_link"/>
+		<child link="left_wheel"/>
+		<origin xyz="0 0.07 0" rpy="0 0 0"/>
+		<axis xyz="0 1 0"/>
+	</joint>
+
+	<joint name="caster_wheel_front_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="caster_wheel_front"/>
+		<origin xyz="0.04755 0 -0.0275" rpy="0 0 0"/>
+	</joint>
+
+	<joint name="caster_wheel_rear_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="caster_wheel_rear"/>
+		<origin xyz="-0.04755 0 -0.0275" rpy="0 0 0"/>
+	</joint>
+
+	<!-- <joint name="sensor_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="sensor"/>
+		<origin xyz="0 0 0.15" rpy="0 0 0"/>
+	</joint> -->
+
+</robot>

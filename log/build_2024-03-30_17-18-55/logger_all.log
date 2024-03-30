@@ -1,0 +1,257 @@
+[0.082s] DEBUG:colcon:Command line arguments: ['/home/irman/.local/bin/colcon', 'build']
+[0.082s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x724bb2c7b610>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x724bb2c2cc70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x724bb2c2cc70>>)
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.108s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.108s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.108s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'ros'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extensions ['cmake', 'python']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'cmake'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'python'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extensions ['python_setup_py']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws) by extension 'python_setup_py'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/build) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/build) ignored
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/install) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/install) ignored
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/log) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/log) ignored
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'ros'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extensions ['cmake', 'python']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'cmake'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'python'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extensions ['python_setup_py']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src) by extension 'python_setup_py'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extensions ['ignore', 'ignore_ament_install']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extension 'ignore'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extension 'ignore_ament_install'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extensions ['colcon_pkg']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extension 'colcon_pkg'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extensions ['colcon_meta']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extension 'colcon_meta'
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extensions ['ros']
+[0.119s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_cpp_examples2) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'bumperbot_ws/src/bumperbot_cpp_examples2' with type 'ros.ament_cmake' and name 'bumperbot_cpp_examples2'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_description) by extension 'ros'
+[0.121s] DEBUG:colcon.colcon_core.package_identification:Package 'bumperbot_ws/src/bumperbot_description' with type 'ros.ament_cmake' and name 'bumperbot_description'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(bumperbot_ws/src/bumperbot_py_examples) by extension 'ros'
+[0.122s] DEBUG:colcon.colcon_core.package_identification:Package 'bumperbot_ws/src/bumperbot_py_examples' with type 'ros.ament_python' and name 'bumperbot_py_examples'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.122s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.135s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.137s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install
+[0.138s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 329 installed packages in /opt/ros/humble
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'cmake_args' from command line to 'None'
+[0.164s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_cpp_examples2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_cpp_examples2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2', 'merge_install': False, 'path': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description', 'merge_install': False, 'path': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.165s] Level 5:colcon.colcon_core.verb:set package 'bumperbot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.165s] DEBUG:colcon.colcon_core.verb:Building package 'bumperbot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples', 'merge_install': False, 'path': '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.166s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.166s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2' with build type 'ament_cmake'
+[0.166s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2'
+[0.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description' with build type 'ament_cmake'
+[0.170s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description'
+[0.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.172s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples' with build type 'ament_python'
+[0.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'ament_prefix_path')
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.ps1'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.dsv'
+[0.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/ament_prefix_path.sh'
+[0.174s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.174s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.178s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2 -DCMAKE_INSTALL_PREFIX=/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2
+[0.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description
+[0.322s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples'
+[0.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples/prefix_override:/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_py_examples build --build-base /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples/build install --record /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description -- -j12 -l12
+[0.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description -- -j12 -l12
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description
+[1.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_description
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description' for CMake module files
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description' for CMake config files
+[1.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/bin'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/lib/python3.10/site-packages'
+[1.065s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/bin'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.sh'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.bash'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[1.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_description)
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description' for CMake module files
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description' for CMake config files
+[1.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_description', 'cmake_prefix_path')
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/hook/cmake_prefix_path.sh'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/bin'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/lib/pkgconfig/bumperbot_description.pc'
+[1.094s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/lib/python3.10/site-packages'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/bin'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.dsv'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.sh'
+[1.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.bash'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/bumperbot_description/package.zsh'
+[1.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_description/share/colcon-core/packages/bumperbot_description)
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples' for CMake module files
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_py_examples' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples/prefix_override:/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_py_examples build --build-base /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples/build install --record /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples' for CMake config files
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/lib'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/bin'
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/lib/pkgconfig/bumperbot_py_examples.pc'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/lib/python3.10/site-packages'
+[1.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('bumperbot_py_examples', 'pythonpath')
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.ps1'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.dsv'
+[1.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/hook/pythonpath.sh'
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/bin'
+[1.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_py_examples)
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/package.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/package.dsv'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/package.sh'
+[1.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/package.bash'
+[1.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/bumperbot_py_examples/package.zsh'
+[1.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_py_examples/share/colcon-core/packages/bumperbot_py_examples)
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_cpp_examples2 -DCMAKE_INSTALL_PREFIX=/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2 -- -j12 -l12
+[4.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[4.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[4.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/build/bumperbot_cpp_examples2 -- -j12 -l12
+[4.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bumperbot_cpp_examples2)
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2' for CMake module files
+[4.361s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2' for CMake config files
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/bin'
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/lib/pkgconfig/bumperbot_cpp_examples2.pc'
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/lib/python3.10/site-packages'
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/bin'
+[4.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/share/bumperbot_cpp_examples2/package.ps1'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/share/bumperbot_cpp_examples2/package.dsv'
+[4.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/share/bumperbot_cpp_examples2/package.sh'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/share/bumperbot_cpp_examples2/package.bash'
+[4.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/share/bumperbot_cpp_examples2/package.zsh'
+[4.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/bumperbot_cpp_examples2/share/colcon-core/packages/bumperbot_cpp_examples2)
+[4.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[4.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.375s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.375s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.386s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.403s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.404s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/local_setup.ps1'
+[4.405s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/_local_setup_util_ps1.py'
+[4.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/setup.ps1'
+[4.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/local_setup.sh'
+[4.412s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/_local_setup_util_sh.py'
+[4.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/setup.sh'
+[4.414s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/local_setup.bash'
+[4.415s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/setup.bash'
+[4.417s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/local_setup.zsh'
+[4.418s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/install/setup.zsh'

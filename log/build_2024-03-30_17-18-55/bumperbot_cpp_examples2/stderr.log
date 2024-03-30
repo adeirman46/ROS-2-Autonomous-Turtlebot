@@ -1,0 +1,5 @@
+gmake[2]: *** [CMakeFiles/simple_subscriber.dir/build.make:76: CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/simple_publisher.dir/build.make:76: CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/simple_subscriber.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/simple_publisher.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
