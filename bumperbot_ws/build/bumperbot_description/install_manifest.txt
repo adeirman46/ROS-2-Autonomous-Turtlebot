@@ -5,6 +5,8 @@
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_urdf.xacro
+/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display_launch.py
+/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh

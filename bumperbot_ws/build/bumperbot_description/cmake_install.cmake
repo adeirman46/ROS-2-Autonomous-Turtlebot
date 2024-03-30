@@ -46,6 +46,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/bumperbot_description" TYPE DIRECTORY FILES
     "/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description/meshes"
     "/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description/urdf"
+    "/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description/launch"
+    "/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description/rviz"
     )
 endif()
 
