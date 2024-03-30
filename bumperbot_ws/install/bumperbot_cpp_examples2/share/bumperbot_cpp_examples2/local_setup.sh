@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_cpp_examples2"}
+: ${AMENT_CURRENT_PREFIX:="/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_cpp_examples2"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

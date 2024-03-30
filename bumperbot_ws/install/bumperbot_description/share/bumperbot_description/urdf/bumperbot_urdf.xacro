@@ -14,39 +14,51 @@
 	</link>
 
 	<!-- Wheel Links -->
-	<link name="left_wheel">
+	<link name="right_wheel"> 
 		<visual>
+			<origin rpy="1.57 0 0" xyz="0 0 0"></origin>
 		<geometry>
-			<cylinder length="0.1" radius="0.05"/>
+			<mesh filename="package://bumperbot_description/meshes/wheel_right_link.STL"></mesh>
 		</geometry>
 		</visual>
 	</link>
 
-	<link name="right_wheel">
+	<link name="left_wheel"> 
 		<visual>
+			<origin rpy="-1.57 0 0" xyz="0 0 0"></origin>
 		<geometry>
-			<cylinder length="0.1" radius="0.05"/>
+			<mesh filename="package://bumperbot_description/meshes/wheel_left_link.STL"></mesh>
 		</geometry>
 		</visual>
 	</link>
 
 	<!-- Caster Wheel Link -->
-	<link name="caster_wheel">
+	<link name="caster_wheel_front">
 		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
 		<geometry>
-			<sphere radius="0.05"/>
+			<mesh filename="package://bumperbot_description/meshes/caster_front_link.STL"></mesh>
 		</geometry>
 		</visual>
-	</link>
+	</link> 
 
-	<!-- Sensor Link -->
+	<link name="caster_wheel_rear">
+		<visual>
+			<origin rpy="0 0 0" xyz="0 0 0"></origin>
+		<geometry>
+			<mesh filename="package://bumperbot_description/meshes/caster_rear_link.STL"></mesh>
+		</geometry>
+		</visual>
+	</link> 
+
+	<!-- Sensor Link
 	<link name="sensor">
 		<visual>
 		<geometry>
 			<cylinder length="0.1" radius="0.05"/>
 		</geometry>
 		</visual>
-	</link>
+	</link> -->
 
 	<!-- Joints -->
 	<joint name="base_joint" type="fixed">
@@ -55,30 +67,36 @@
 		<origin xyz="0 0 0.033" rpy="0 0 0"/>
 	</joint>
 	
-	<joint name="left_wheel_joint" type="continuous">
-		<parent link="base_link"/>
-		<child link="left_wheel"/>
-		<origin xyz="0.1 0.15 0" rpy="0 0 0"/>
-		<axis xyz="0 1 0"/>
-	</joint>
-
 	<joint name="right_wheel_joint" type="continuous">
 		<parent link="base_link"/>
 		<child link="right_wheel"/>
-		<origin xyz="0.1 -0.15 0" rpy="0 0 0"/>
+		<origin xyz="0 -0.07 0" rpy="0 0 0"/>
 		<axis xyz="0 1 0"/>
 	</joint>
 
-	<joint name="caster_wheel_joint" type="fixed">
+	<joint name="left_wheel_joint" type="continuous">
 		<parent link="base_link"/>
-		<child link="caster_wheel"/>
-		<origin xyz="0 -0.2 0" rpy="0 0 0"/>
+		<child link="left_wheel"/>
+		<origin xyz="0 0.07 0" rpy="0 0 0"/>
+		<axis xyz="0 1 0"/>
 	</joint>
 
-	<joint name="sensor_joint" type="fixed">
+	<joint name="caster_wheel_front_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="caster_wheel_front"/>
+		<origin xyz="0.04755 0 -0.0275" rpy="0 0 0"/>
+	</joint>
+
+	<joint name="caster_wheel_rear_joint" type="fixed">
+		<parent link="base_link"/>
+		<child link="caster_wheel_rear"/>
+		<origin xyz="-0.04755 0 -0.0275" rpy="0 0 0"/>
+	</joint>
+
+	<!-- <joint name="sensor_joint" type="fixed">
 		<parent link="base_link"/>
 		<child link="sensor"/>
 		<origin xyz="0 0 0.15" rpy="0 0 0"/>
-	</joint>
+	</joint> -->
 
 </robot>

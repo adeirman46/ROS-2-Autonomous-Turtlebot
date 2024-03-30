@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description"
+CMAKE_SOURCE_DIR = /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description"
+CMAKE_BINARY_DIR = /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description" "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description" "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description" "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description" "/home/irman/Documents/Github Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/src/bumperbot_description /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/build/bumperbot_description/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
