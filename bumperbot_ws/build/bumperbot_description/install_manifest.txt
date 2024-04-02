@@ -5,6 +5,7 @@
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+/home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.gazebo.xacro
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
 /home/irman/Documents/Github_Projects/ROS-2-Autonomous-Turtlebot/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
