@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_cpp_examples/include/**",
+        "/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/src/bumperbot_controller/include/**",
+        "/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/src/bumperbot_cpp_examples/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,96 @@
+[0.015s] Invoking command in '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller
+[0.065s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.472s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.503s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.507s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.513s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.537s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.585s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.587s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.684s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.710s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.760s] -- Looking for pthread.h
+[0.826s] -- Looking for pthread.h - found
+[0.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.893s] -- Found Threads: TRUE  
+[0.998s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[0.999s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.142s] -- Configuring done
+[1.150s] -- Generating done
+[1.152s] -- Build files have been written to: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller
+[1.161s] Invoked command in '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/src/bumperbot_controller -DCMAKE_INSTALL_PREFIX=/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller
+[1.162s] Invoking command in '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller -- -j16 -l16
+[1.209s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[1.217s] [ 50%] Built target ament_cmake_python_copy_bumperbot_controller
+[1.413s] running egg_info
+[1.414s] creating bumperbot_controller.egg-info
+[1.414s] writing bumperbot_controller.egg-info/PKG-INFO
+[1.414s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[1.414s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[1.415s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.416s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[1.450s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[8.576s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[8.848s] [100%] Built target simple_controller
+[8.858s] Invoked command in '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller -- -j16 -l16
+[8.894s] Invoking command in '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller
+[8.901s] -- Install configuration: ""
+[8.901s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[8.901s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[8.902s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[8.926s] Listing '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[8.926s] Compiling '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py'...
+[8.926s] Compiling '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py'...
+[8.929s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/include/include
+[8.930s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/include/include/bumperbot_controller
+[8.930s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[8.930s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[8.935s] -- Set runtime path of "/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/lib/bumperbot_controller/simple_controller" to ""
+[8.935s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/launch
+[8.935s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[8.935s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[8.935s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/config
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[8.936s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[8.937s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[8.938s] -- Installing: /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[8.940s] Invoked command in '/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_controller

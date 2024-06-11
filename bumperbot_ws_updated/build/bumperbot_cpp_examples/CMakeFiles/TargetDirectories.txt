@@ -1,0 +1,13 @@
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/uninstall.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/bumperbot_cpp_examples_uninstall.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/simple_publisher.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/simple_subscriber.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/simple_parameter.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/simple_turtlesim_kinematics.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/test.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/edit_cache.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/rebuild_cache.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/list_install_components.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/install.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/install/local.dir
+/home/irman/Documents/ROS-2-Autonomous-Turtlebot/bumperbot_ws_updated/build/bumperbot_cpp_examples/CMakeFiles/install/strip.dir
